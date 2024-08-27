@@ -1,4 +1,9 @@
 node_modules
 dist
+esm
+cjs
 .tsbuildinfo
 yarn-error.log
+.yarn
+!.yarn/releases
+*.tgz
