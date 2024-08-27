@@ -1,9 +1,20 @@
 node_modules
+
+# build artifacts
 dist
 esm
 cjs
+
 .tsbuildinfo
 yarn-error.log
-.yarn
-!.yarn/releases
+
+# locally build packages
 *.tgz
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

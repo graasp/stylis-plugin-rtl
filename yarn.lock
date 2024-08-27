@@ -448,6 +448,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@graasp/stylis-plugin-rtl@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@graasp/stylis-plugin-rtl@workspace:."
+  dependencies:
+    "@types/jest": "npm:^29.5.12"
+    "@types/stylis": "npm:^4.2.6"
+    cssjanus: "npm:^2.3.0"
+    jest: "npm:^29.7.0"
+    prettier: "npm:^3.3.3"
+    stylis: "npm:^4.3.4"
+    ts-jest: "npm:^29.2.5"
+    typescript: "npm:^5.5.4"
+  peerDependencies:
+    stylis: 4.x
+  languageName: unknown
+  linkType: soft
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -3439,23 +3456,6 @@ __metadata:
   checksum: 10c0/9681a6257b925a7fa0f285851c0e613cc934a50661fa7bb41ca9cbbff89686bb4a0ee366e6ecedc4daafd01e83eee0720111ab294366fe7c185e935475ebcecd
   languageName: node
   linkType: hard
-
-"stylis-plugin-rtl@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "stylis-plugin-rtl@workspace:."
-  dependencies:
-    "@types/jest": "npm:^29.5.12"
-    "@types/stylis": "npm:^4.2.6"
-    cssjanus: "npm:^2.3.0"
-    jest: "npm:^29.7.0"
-    prettier: "npm:^3.3.3"
-    stylis: "npm:^4.3.4"
-    ts-jest: "npm:^29.2.5"
-    typescript: "npm:^5.5.4"
-  peerDependencies:
-    stylis: 4.x
-  languageName: unknown
-  linkType: soft
 
 "stylis@npm:^4.3.4":
   version: 4.3.4
