@@ -1,4 +1,6 @@
-# stylis-plugin-rtl
+# @graasp/stylis-plugin-rtl
+
+> A fork of stylis-plugin-rtl with fixed package exports
 
 Stylis RTL plugin based on CSSJanus
 
